@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#grid-container {
+  width: 700px;
+  height: 700px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.single-div {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+
+.modified-div {
+  background-color: blue;
+}
